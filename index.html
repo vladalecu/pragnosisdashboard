@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-   <!-- Memberstack --> 
-<script src="https://api.memberstack.io/static/memberstack.js?custom" data-memberstack-id="6c781fa39d19afa3291e4d216a124459"> </script> 
+    <script>
+      var MemberSpace = window.MemberSpace || {subdomain: "pragnosis"};
+      (function(d){
+        var s = d.createElement("script");
+        s.src = "https://cdn.memberspace.com/scripts/widgets.js";
+        var e = d.getElementsByTagName("script")[0];
+        e.parentNode.insertBefore(s,e);
+      }(document));
+      </script>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
