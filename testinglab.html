@@ -34,20 +34,7 @@
          
           <ul class="navbar-nav navbar-nav-right">
             <li class="nav-item nav-profile dropdown">
-              <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
-                
-                <div class="nav-profile-text">
-                  <p class="mb-1 text-black">My Profile</p>
-                </div>
-              </a>
-              <div class="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
-                <a class="dropdown-item" href="#">
-                  <i class="mdi mdi-cached mr-2 text-success"></i> Activity Log </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">
-                  <i class="mdi mdi-logout mr-2 text-primary"></i> Signout </a>
-              </div>
-            </li>
+          
             <li class="nav-item d-none d-lg-block full-screen-link">
               <a class="nav-link">
                 <i class="mdi mdi-fullscreen" id="fullscreen-button"></i>
@@ -84,7 +71,7 @@
            
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="autopilot.html">
+              <a class="nav-link" href="researchcenter.html">
                 <span class="menu-title">Research Center</span>
                 <i class="mdi mdi-react menu-icon"></i>
               </a>
@@ -95,12 +82,7 @@
                 <i class="mdi mdi-poll-box menu-icon"></i>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/tables/basic-table.html">
-                <span class="menu-title">Settings</span>
-                <i class="mdi mdi-settings menu-icon"></i>
-              </a>
-            </li>
+   
            
             
           </ul>
@@ -123,8 +105,28 @@
               </nav>
             </div>
 
-             
-            <iframe style="border:none;" src="https://covid19.thrive.health/" height="800" width="100%"></iframe>
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Self-Assessment Tool 📋</h4>
+                  <p class="card-description"> This self-assessment tool, developed with the BC Ministry of Health, will help determine whether you may need further assessment or testing for COVID-19. <br> <BR>You can complete this assessment for yourself, or on behalf of someone else.
+
+                    If you have respiratory symptoms and a serious ongoing condition, or are in the third trimester of pregnancy, please follow the advice of your specialist.
+                    
+                    Most people do not need to be tested for COVID-19 because it will not change your care.</p>
+                    <button onclick="window.location.href='self-assessment.html'" type="button" class="btn btn-gradient-danger btn-fw">Get Tested</button>
+                  </div>
+              </div>
+            </div>
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Self Triage Tool 🔎</h4>
+                  <p class="card-description"> This tool was developed using the latest recommendations from the CDC, which will help you determine what to do if you think you might have symptoms of COVID-19 or may have been exposed.</p>
+                  <button onclick="window.location.href='self-triage.html'" type="button" class="btn btn-gradient-danger btn-fw">Get Tested</button>
+                </div>
+              </div>
+            </div>
             
             
           
